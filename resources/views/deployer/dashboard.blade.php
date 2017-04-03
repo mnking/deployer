@@ -1,0 +1,1 @@
+@extends('deployer.layout')
