@@ -44,7 +44,10 @@
     <!-- END SIDEBAR -->
     <!-- BEGIN PAGE CONTAINER-->
     <div class="page-content">
-        @yield('content')
+        <div class="clearfix"></div>
+        <div class="content">
+            @yield('content')
+        </div>
     </div>
 </div>
 <!-- END CONTAINER -->
